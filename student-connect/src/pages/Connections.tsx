@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { Typography, Box, Grid, Card, CardContent, Avatar, Chip, Button, CardActions } from '@mui/material';
+import { Container, Typography, Grid, Card, CardContent, CardActions, Button, Avatar } from '@mui/material';
+import { useState, useEffect } from 'react';
+import { Chip } from '@mui/material';
 
 const MOCK_STUDENTS = [
   {
@@ -63,7 +64,7 @@ const Connections = () => {
   const connectedStudents = MOCK_STUDENTS.filter((student) => connections.includes(student.id));
 
   return (
-    <Box>
+    <Container>
       <Typography variant="h5" gutterBottom>
         My Connections
       </Typography>
@@ -147,7 +148,7 @@ const Connections = () => {
           ))}
         </Grid>
       )}
-    </Box>
+    </Container>
   );
 };
 

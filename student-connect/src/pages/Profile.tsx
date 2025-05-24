@@ -10,7 +10,7 @@ import {
   Avatar,
   Chip,
   Divider,
-  Input,
+  IconButton,
 } from '@mui/material';
 
 const defaultProfile = {

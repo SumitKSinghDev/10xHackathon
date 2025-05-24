@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', Arial, sans-serif;
+  background: #f5f6fa;
+  color: #222;
+}
+
+#root {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e3f0ff 0%, #f5f6fa 100%);
+}
+
+.MuiPaper-root {
+  border-radius: 18px !important;
+  box-shadow: 0 2px 16px 0 rgba(60, 72, 88, 0.08) !important;
+}
+
+.MuiButton-root {
+  border-radius: 8px !important;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+}
+
+.MuiButton-root:hover {
+  background: #1976d2 !important;
+  color: #fff !important;
+}
+
+.MuiCard-root {
+  border-radius: 16px !important;
+  transition: box-shadow 0.2s;
+}
+
+.MuiCard-root:hover {
+  box-shadow: 0 4px 24px 0 rgba(25, 118, 210, 0.12) !important;
+}
+
+.MuiTabs-indicator {
+  height: 4px;
+  border-radius: 2px;
+}
+
+.MuiChip-root {
+  font-size: 0.95rem;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.MuiChip-root:hover {
+  background: #e3f0ff !important;
+  color: #1976d2 !important;
+  box-shadow: 0 2px 8px 0 rgba(25, 118, 210, 0.10);
+}
+
+.MuiAvatar-root {
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.MuiAvatar-root:hover {
+  box-shadow: 0 2px 12px 0 rgba(25, 118, 210, 0.15);
+  transform: scale(1.07);
+} 

@@ -97,11 +97,6 @@ const Dashboard = () => {
   const allProjectTags = connectedStudents.flatMap((s) => s.projects.map((p) => p.trim()));
   const uniqueProjectTags: string[] = Array.from(new Set(allProjectTags));
 
-  const handleSearch = () => {
-    // Implement search functionality
-    console.log('Searching for:', searchQuery);
-  };
-
   return (
     <Container maxWidth="md" sx={{ mt: 4, minHeight: '100vh', p: { xs: 0, sm: 2 } }}>
       {/* Header */}

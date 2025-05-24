@@ -1,7 +1,6 @@
-import { AppBar, Toolbar, Typography, Button, IconButton } from '@mui/material';
+import { AppBar, Toolbar, Typography, Button, Box } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
 import SchoolIcon from '@mui/icons-material/School';
-import { Menu as MenuIcon } from '@mui/icons-material';
 
 const Navbar = () => {
   return (

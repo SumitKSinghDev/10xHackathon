@@ -72,7 +72,7 @@ function TabPanel(props: { children?: React.ReactNode; index: number; value: num
 
 const Dashboard = () => {
   const [tab, setTab] = useState(0);
-  const handleChange = (event: React.SyntheticEvent, newValue: number) => {
+  const handleChange = (_: React.SyntheticEvent, newValue: number) => {
     setTab(newValue);
   };
 

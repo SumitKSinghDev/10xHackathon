@@ -1,4 +1,4 @@
-import { Container, Typography, Grid, Card, CardContent, CardActions, Button, Avatar } from '@mui/material';
+import { Container, Typography, Grid, Card, CardContent, CardActions, Button, Avatar, Box } from '@mui/material';
 import { useState, useEffect } from 'react';
 import { Chip } from '@mui/material';
 
